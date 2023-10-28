@@ -1,0 +1,20 @@
+.session {
+    background-color: rgb(255, 152, 169);
+    font-family: "Verdana", "DejaVu sans", sans-serif;
+
+}
+.session.time {
+    font-size: 24px;
+    
+
+}
+
+#mensvic {
+    font-size: 24px;
+    background-color: rgb(93, 246, 113);
+    font-weight: bold;
+}
+#puree {
+    color: rgb(7, 7, 254);
+    font-size: 36px;
+}
