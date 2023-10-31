@@ -14,12 +14,33 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.first{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px
+}
+.text {
+  margin-left: 50px;
+}
+.buttons{
+  margin-left: 50px;
+}
+.internal {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .icon {
